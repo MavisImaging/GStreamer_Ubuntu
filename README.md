@@ -32,9 +32,10 @@ Download the stream_camera.py file to your Ubuntu machine and run it in the same
 python3 stream_camera.py
 ```
 ## 5. Debugging
-If you encounter the error: "no element 'mvsrc'":
+If you encounter the error: **"no element 'mvsrc'"**:
 
-##Copy the Plugin to the GStreamer Directory (replace ~/path/to/libgstmvsrc.so with the actual path to your libgstmvsrc.so file):
+## Copy the Plugin to the GStreamer Directory:
+Replace ~/path/to/libgstmvsrc.so with the actual path to your libgstmvsrc.so file.
 ```
 sudo cp ~/path/to/libgstmvsrc.so /usr/lib/gstreamer-1.0/
 ```
@@ -46,7 +47,7 @@ gst-inspect-1.0 mvsrc
 ```
 ls -l /usr/lib/x86_64-linux-gnu/gstreamer-1.0/libgstmvsrc.so
 ```
-## Ensure that the file has read and execute permissions for the user running gst-inspect-1.0. You may need superuser (root) privileges to change permissions if necessary:
+Ensure that the file has read and execute permissions for the user running gst-inspect-1.0. You may need superuser (root) privileges to change permissions if necessary:
 ```
 sudo chmod +r /usr/lib/x86_64-linux-gnu/gstreamer-1.0/libgstmvsrc.so
 ```
