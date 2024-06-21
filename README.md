@@ -35,9 +35,10 @@ python3 stream_camera.py
 If you encounter the error: **"no element 'mvsrc'"**:
 
 ## Copy the Plugin to the GStreamer Directory:
-Replace ~/path/to/libgstmvsrc.so with the actual path to your libgstmvsrc.so file.
+If the *libgstmvsrc.so* file is not present in the *gstreamer-1.0* folder, you can download it from this repository. 
+After downloading, paste the file on your desktop. Replace *USER* with your computer's username in the following command:
 ```
-sudo cp ~/path/to/libgstmvsrc.so /usr/lib/gstreamer-1.0/
+sudo cp ~/home/USER/libgstmvsrc.so /usr/lib/gstreamer-1.0/
 ```
 ## Verify Plugin Registration:
 ```
