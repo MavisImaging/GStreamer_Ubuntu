@@ -68,3 +68,8 @@ Sometimes, GStreamer may not have updated its plugin cache to recognize newly in
 rm ~/.cache/gstreamer-1.0/registry.x86_64.bin
 gst-inspect-1.0 --gst-plugin-path=/usr/lib/x86_64-linux-gnu/gstreamer-1.0/
 ```
+## About
+<img src="images/mavis.png" alt="xLogo" width="700">
+
+
+Work undertaken by [Mavis Imaging GmbH](https://www.mavis-imaging.com/).
