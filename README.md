@@ -4,19 +4,19 @@ This repository provides a comprehensive guide for setting up and using GStreame
 
 ## Table of Contents
 
-1. [Install the Camera](#1-install-the-camera)
-2. [Set the IP Address of Your Machine](#2-set-the-ip-address-of-your-machine)
+1. [Set the IP Address of Your Machine](#1-set-the-ip-address-of-your-machine)
+2. [Install the Camera](#2-install-the-camera)
 3. [Install GStreamer](#3-install-gstreamer)
 4. [Run Python Code](#4-run-python-code)
 5. [Debugging](#5-debugging)
 
-## 1. Install the Camera
-
-Ensure that your camera is properly installed and connected to your Ubuntu machine.
-
-## 2. Set the IP Address of Your Machine
+## 1. Set the IP Address of Your Machine
 
 Configure the IP address of your machine.
+
+## 2. Install the Camera
+
+Ensure that your camera is properly installed and connected to your Ubuntu machine.
 
 ## 3. Install GStreamer
 
