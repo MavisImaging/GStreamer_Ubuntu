@@ -35,6 +35,11 @@ Alternatively, you can directly paste this command into your terminal:
 ```
 gst-launch-1.0 mvsrc ! videoconvert ! autovideosink
 ```
+Connect a specific camera and get the image through the camera ID. The ID can be the camera serial number, User defined Name, IP, MAC:
+```
+gst-launch-1.0 mvsrc camera-id=BE37824BAK00003 ! videoconvert ! autovideosink
+gst-launch-1.0 mvsrc camera-id=cam001 ! videoconvert ! autovideosink
+```
 
 ## 5. Debugging
 If you encounter the error: **"no element 'mvsrc'"**:
