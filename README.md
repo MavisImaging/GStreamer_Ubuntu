@@ -31,6 +31,11 @@ Download the stream_camera.py file to your Ubuntu machine and run it in the same
 ```
 python3 stream_camera.py
 ```
+Alternatively, you can directly paste this command into your terminal:
+```
+gst-launch-1.0 mvsrc ! videoconvert ! autovideosink
+```
+
 ## 5. Debugging
 If you encounter the error: **"no element 'mvsrc'"**:
 
